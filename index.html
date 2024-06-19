@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Mortgage Calculator</h2>
+      <label for="principal">Principal:</label>
+      <input
+        type="number"
+        id="principal"
+        placeholder="Enter principal amount"
+        required
+      /><br />
+      <label for="rate">Yearly Rate (%):</label>
+      <input
+        type="number"
+        id="rate"
+        placeholder="Enter yearly rate"
+        required
+      /><br />
+      <label for="term">Term:</label>
+      <select id="term">
+        <option value="10">10 years</option>
+        <option value="15">15 years</option>
+        <option value="30">30 years</option></select
+      ><br />
+      <button id="calculateBtn">Calculate</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="footer">
+      <footer>
+          <a href="https://github.com/kaeuo/Project-2.git" target=_blank title="git hub link">
+              github repository
+        </footer>
+      </div>
+  </body>
+</html>
